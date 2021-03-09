@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T05:43:15.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.5" etag="ZvBExbFwMxjFlJ9RVnzS" type="github"><diagram id="ui7-eMB6oEaKblFh45MD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-09T06:01:37.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="Ucpp1tHfpWVU4_WAtv_Z" version="14.4.5" type="github">
+  <diagram id="ui7-eMB6oEaKblFh45MD" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P-7N9xHbrevv4vDm2DJV-2" value=":AbstractAutowireCapableBeanFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="324" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="P-7N9xHbrevv4vDm2DJV-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P-7N9xHbrevv4vDm2DJV-2">
+          <mxGeometry x="157" y="110" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="P-7N9xHbrevv4vDm2DJV-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#ffffff;fontFamily=Courier New;fontColor=#000000;" vertex="1" parent="P-7N9xHbrevv4vDm2DJV-2">
+          <mxGeometry x="152" y="200" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P-7N9xHbrevv4vDm2DJV-8" value="&lt;span style=&quot;font-size: 11px&quot;&gt;invokeAwareMethods(beanName, bean);&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Courier New;fontColor=#000000;" edge="1" target="P-7N9xHbrevv4vDm2DJV-7" parent="P-7N9xHbrevv4vDm2DJV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="187" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-7N9xHbrevv4vDm2DJV-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#ffffff;fontFamily=Courier New;fontColor=#000000;" vertex="1" parent="P-7N9xHbrevv4vDm2DJV-2">
+          <mxGeometry x="152" y="310" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-7N9xHbrevv4vDm2DJV-12" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;applyBeanPostProcessorsBeforeInitialization(wrappedBean&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;beanName)&lt;span style=&quot;color: #cc7832&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Courier New;fontColor=#000000;" edge="1" target="P-7N9xHbrevv4vDm2DJV-11" parent="P-7N9xHbrevv4vDm2DJV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="157" y="270" />
+              <mxPoint x="200" y="270" />
+              <mxPoint x="200" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-7N9xHbrevv4vDm2DJV-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#ffffff;fontFamily=Courier New;fontColor=#000000;" vertex="1" parent="P-7N9xHbrevv4vDm2DJV-2">
+          <mxGeometry x="152" y="410" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P-7N9xHbrevv4vDm2DJV-14" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;invokeInitMethods(beanName&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;wrappedBean&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;mbd)&lt;span style=&quot;color: #cc7832&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontFamily=Courier New;fontColor=#000000;" edge="1" target="P-7N9xHbrevv4vDm2DJV-13" parent="P-7N9xHbrevv4vDm2DJV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="187" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P-7N9xHbrevv4vDm2DJV-6" value="initializeBean()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#000000;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="130" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
